@@ -1,0 +1,97 @@
+$maxWidth: 900px;
+$mainColor: rgba(14, 93, 198, 0.9);
+
+body{
+    background-color: #f6f6f6;
+}
+
+#wrapper{
+    max-width: $maxWidth;
+    margin: auto;
+    padding: 0 0 100px 0;
+}
+
+.cover{
+    position: absolute;
+    top: 60px;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 50vh;
+    background-size: 100%;
+    background-image:url('../images/default_blog_cover.jpeg');
+    background-position: center;
+    overflow: hidden;
+    .filter{
+        width: 100%;
+        height: 50vh;
+        background-color: #303030;
+        opacity: 0.4;
+    }
+    .cover-title{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        color: #fff;
+        text-align: right;
+        transform: translate(-50%, -50%);
+        h1{
+            font-family: 'Monserrat', san-serif;
+            font-size: 30pt;
+        }
+        p{
+            font-family: 'Ubuntu', san-serif;
+        }
+    }
+}
+
+.contents{
+    margin: 430px auto 0;
+}
+#post-list{
+    .post-item{
+        position: relative;
+        margin: 0 0 20px;
+        padding: 14px 30px;
+        border: 1px solid #d8d8d8;
+        background-color: #fff;
+        .post-category, .post-title, .post-content, .post-tags{
+            width: 78%;
+        }
+        .post-category{
+            margin: 10px 0;
+        }
+        .post-date{
+            font-weight: 300;
+        }
+        .post-content{
+            font-weight: 300;
+            max-height: 50px;
+            line-height: 24px;
+            -webkit-line-clamp: 2;
+            text-overflow: ellipsis;
+            word-wrap: break-word;
+            overflow: hidden;
+        }
+        .tag{
+            margin: 0 10px 0 0;
+            padding: 5px 8px;
+            border: 1px solid #d0d0d0;
+            border-radius: 5px;
+            font-size: 0.9em;
+            font-weight: 300;
+        }
+        .post-image-wrapper{
+            position: absolute;
+            top: 50%;
+            right: 40px;
+            width: 150px;
+            height: 150px;
+            transform: translate(0, -50%);
+            .post-image{
+                width: 150px;
+                height: 150px;
+            }
+        }
+    }
+}

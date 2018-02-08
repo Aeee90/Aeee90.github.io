@@ -1,0 +1,16 @@
+<header id="header">
+    <div class="container">
+    <div class="toggle-btn">
+    <input class="menu-toggle" type="checkbox">
+    <span></span><span></span><span></span>
+    </div>
+
+    <a id="logo" href="/">{{ site.title }}</a>
+    <ul id="menu" class="nav">
+        <li class="{% if page.url == '/' or page.url != '/resume/' %} active {% endif %}"><a
+                href="/">BLOG</a></li>
+        <li class="{% if page.url == '/resume/' %} active {% endif %}"><a href="{{ base_path }}/resume/">RESUME</a></li>
+    </ul>
+    {% assign site = site %}
+    </div>
+</header>

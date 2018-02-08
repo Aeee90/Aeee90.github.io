@@ -1,0 +1,30 @@
+/* line 1, ../../_sass/init.scss */
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+/* line 2, ../../_sass/init.scss */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'NanumSquare';
+}
+
+/* line 3, ../../_sass/init.scss */
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* line 4, ../../_sass/init.scss */
+a {
+  text-decoration: none;
+  color: #080808;
+}
+
+/* Customized init */
+/* line 7, ../../_sass/init.scss */
+h1, h2, h3, h4, h5, h6 {
+  word-break: keep-all;
+}

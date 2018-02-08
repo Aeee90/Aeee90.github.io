@@ -1,0 +1,133 @@
+/* line 1, ../../_sass/post.scss */
+.post-navbar {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  height: 60px;
+}
+/* line 7, ../../_sass/post.scss */
+.post-navbar h5 {
+  position: absolute;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  top: 50%;
+  left: 0;
+  width: 80%;
+  transform: translate(0, -50%);
+}
+/* line 17, ../../_sass/post.scss */
+.post-navbar h5 img {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  height: 12px;
+  transform: translate(0, -50%);
+}
+/* line 24, ../../_sass/post.scss */
+.post-navbar h5 a {
+  padding: 0 0 0 20px;
+}
+/* line 28, ../../_sass/post.scss */
+.post-navbar ul {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  width: 15%;
+  transform: translate(0, -50%);
+}
+/* line 34, ../../_sass/post.scss */
+.post-navbar ul li {
+  text-align: right;
+}
+/* line 36, ../../_sass/post.scss */
+.post-navbar ul li [alt="Share to facebook"] {
+  width: 20px;
+}
+
+/* line 43, ../../_sass/post.scss */
+.post-cover {
+  position: relative;
+  height: 250px;
+}
+/* line 47, ../../_sass/post.scss */
+.post-cover .filter {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 250px;
+  background-color: #303030;
+  opacity: 0.7;
+}
+/* line 56, ../../_sass/post.scss */
+.post-cover .post-title-wrapper {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 80%;
+  text-align: center;
+  color: #fff;
+  transform: translate(-50%, -50%);
+  z-index: 99;
+}
+/* line 66, ../../_sass/post.scss */
+.post-cover .post-title-wrapper a {
+  color: #fff;
+  font-weight: 300;
+}
+
+/* line 73, ../../_sass/post.scss */
+#post-content {
+  padding: 40px 80px;
+  font-weight: 300;
+  line-height: 30px;
+  background-color: #fff;
+  border: 1px solid #f0f0f0;
+}
+/* line 80, ../../_sass/post.scss */
+#post-content *:first-child {
+  margin: 0;
+}
+/* line 83, ../../_sass/post.scss */
+#post-content p {
+  margin: 20px 0 0;
+}
+/* line 86, ../../_sass/post.scss */
+#post-content .highlighter-rouge {
+  margin: 10px 0;
+}
+
+/* line 91, ../../_sass/post.scss */
+#post-prev, #post-next {
+  position: relative;
+  height: 150px;
+}
+/* line 95, ../../_sass/post.scss */
+#post-prev .filter, #post-next .filter {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 150px;
+  background-color: #303030;
+  opacity: 0.7;
+}
+/* line 104, ../../_sass/post.scss */
+#post-prev .link-title-wrapper, #post-next .link-title-wrapper {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  color: #fff;
+  transform: translate(-50%, -50%);
+  z-index: 99;
+}
+/* line 113, ../../_sass/post.scss */
+#post-prev .link-title-wrapper p, #post-next .link-title-wrapper p {
+  font-weight: 300;
+}
+/* line 117, ../../_sass/post.scss */
+#post-prev .link-title-wrapper h3 a, #post-next .link-title-wrapper h3 a {
+  color: #fff;
+}

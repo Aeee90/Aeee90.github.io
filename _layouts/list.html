@@ -1,0 +1,27 @@
+---
+layout: default
+---
+<div id="cover" class="cover container-fluid"><div class="filter"></div>
+    <div class="cover-title">
+    <h1>{{ site.name }}</h1>
+    <p>{{ site.description | newline_to_br }}</p>
+    <div id="icon-wrap">
+        <!--<a href="https://www.facebook.com/{{ site.facebook }}" target="_blank"><img src="{{ site.asset_url }}/images/icon_fb.png"></a>
+        <a href="https://brunch.co.kr/@{{ site.brunch }}" target="_blank"><img src="{{ site.asset_url }}/images/icon_brunch.png"> </a>
+        <a href="https://github.com/{{ site.github }}" target="_blank"><img src="{{ site.asset_url }}/images/icon_github.png"> </a>
+        <a href="mailto:{{ site.email }}" target="_blank"><img src="{{ site.asset_url }}/images/icon_email.png"> </a>-->
+    </div>
+    </div>
+</div>
+
+<section class="contents">
+<div id="navbar" class="container">
+    <h5>{{ site.posts.size }} Posts</h5>
+</div>
+
+<div id="content" class="container">
+    <div id="home-content" role="main">
+        {{ content }}
+    </div>
+</div>
+</section>

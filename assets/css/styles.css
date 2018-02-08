@@ -1,0 +1,321 @@
+/* line 1, ../../_sass/init.scss */
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+/* line 2, ../../_sass/init.scss */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'NanumSquare';
+}
+
+/* line 3, ../../_sass/init.scss */
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* line 4, ../../_sass/init.scss */
+a {
+  text-decoration: none;
+  color: #080808;
+}
+
+/* Customized init */
+/* line 7, ../../_sass/init.scss */
+h1, h2, h3, h4, h5, h6 {
+  word-break: keep-all;
+}
+
+/* line 4, ../../_sass/header.scss */
+header {
+  width: 100%;
+  background-color: #fff;
+}
+
+/* line 8, ../../_sass/header.scss */
+header .container {
+  margin: auto;
+  max-width: 900px;
+  height: 58px;
+  line-height: 58px;
+}
+
+/* line 14, ../../_sass/header.scss */
+#logo, .nav {
+  display: inline-block;
+  height: 58px;
+}
+
+/* line 18, ../../_sass/header.scss */
+#logo {
+  font-family: 'Libre Barcode 39 Extended Text';
+  font-size: 30pt;
+  color: rgba(14, 93, 198, 0.9);
+}
+
+/* line 23, ../../_sass/header.scss */
+ul.nav {
+  float: right;
+  font-family: 'Lato';
+}
+/* line 26, ../../_sass/header.scss */
+ul.nav li {
+  float: left;
+  margin: 0 10px;
+}
+/* line 30, ../../_sass/header.scss */
+ul.nav li.active {
+  border-bottom: 2px solid rgba(14, 93, 198, 0.9);
+}
+
+/* line 34, ../../_sass/header.scss */
+.toggle-btn {
+  display: none;
+}
+
+/* line 4, ../../_sass/list.scss */
+body {
+  background-color: #f6f6f6;
+}
+
+/* line 8, ../../_sass/list.scss */
+#wrapper {
+  max-width: 900px;
+  margin: auto;
+  padding: 0 0 100px 0;
+}
+
+/* line 14, ../../_sass/list.scss */
+.cover {
+  position: absolute;
+  top: 60px;
+  left: 0;
+  display: block;
+  width: 100%;
+  height: 50vh;
+  background-size: 100%;
+  background-image: url("../images/default_blog_cover.jpeg");
+  background-position: center;
+  overflow: hidden;
+}
+/* line 25, ../../_sass/list.scss */
+.cover .filter {
+  width: 100%;
+  height: 50vh;
+  background-color: #303030;
+  opacity: 0.4;
+}
+/* line 31, ../../_sass/list.scss */
+.cover .cover-title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  color: #fff;
+  text-align: right;
+  transform: translate(-50%, -50%);
+}
+/* line 38, ../../_sass/list.scss */
+.cover .cover-title h1 {
+  font-family: 'Monserrat', san-serif;
+  font-size: 30pt;
+}
+/* line 42, ../../_sass/list.scss */
+.cover .cover-title p {
+  font-family: 'Ubuntu', san-serif;
+}
+
+/* line 48, ../../_sass/list.scss */
+.contents {
+  margin: 430px auto 0;
+}
+
+/* line 52, ../../_sass/list.scss */
+#post-list .post-item {
+  position: relative;
+  margin: 0 0 20px;
+  padding: 14px 30px;
+  border: 1px solid #d8d8d8;
+  background-color: #fff;
+}
+/* line 58, ../../_sass/list.scss */
+#post-list .post-item .post-category, #post-list .post-item .post-title, #post-list .post-item .post-content, #post-list .post-item .post-tags {
+  width: 78%;
+}
+/* line 61, ../../_sass/list.scss */
+#post-list .post-item .post-category {
+  margin: 10px 0;
+}
+/* line 64, ../../_sass/list.scss */
+#post-list .post-item .post-date {
+  font-weight: 300;
+}
+/* line 67, ../../_sass/list.scss */
+#post-list .post-item .post-content {
+  font-weight: 300;
+  max-height: 50px;
+  line-height: 24px;
+  -webkit-line-clamp: 2;
+  text-overflow: ellipsis;
+  word-wrap: break-word;
+  overflow: hidden;
+}
+/* line 76, ../../_sass/list.scss */
+#post-list .post-item .tag {
+  margin: 0 10px 0 0;
+  padding: 5px 8px;
+  border: 1px solid #d0d0d0;
+  border-radius: 5px;
+  font-size: 0.9em;
+  font-weight: 300;
+}
+/* line 84, ../../_sass/list.scss */
+#post-list .post-item .post-image-wrapper {
+  position: absolute;
+  top: 50%;
+  right: 40px;
+  width: 150px;
+  height: 150px;
+  transform: translate(0, -50%);
+}
+/* line 91, ../../_sass/list.scss */
+#post-list .post-item .post-image-wrapper .post-image {
+  width: 150px;
+  height: 150px;
+}
+
+/* line 1, ../../_sass/post.scss */
+.post-navbar {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  height: 60px;
+}
+/* line 7, ../../_sass/post.scss */
+.post-navbar h5 {
+  position: absolute;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  top: 50%;
+  left: 0;
+  width: 80%;
+  transform: translate(0, -50%);
+}
+/* line 17, ../../_sass/post.scss */
+.post-navbar h5 img {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  height: 12px;
+  transform: translate(0, -50%);
+}
+/* line 24, ../../_sass/post.scss */
+.post-navbar h5 a {
+  padding: 0 0 0 20px;
+}
+/* line 28, ../../_sass/post.scss */
+.post-navbar ul {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  width: 15%;
+  transform: translate(0, -50%);
+}
+/* line 34, ../../_sass/post.scss */
+.post-navbar ul li {
+  text-align: right;
+}
+/* line 36, ../../_sass/post.scss */
+.post-navbar ul li [alt="Share to facebook"] {
+  width: 20px;
+}
+
+/* line 43, ../../_sass/post.scss */
+.post-cover {
+  position: relative;
+  height: 250px;
+}
+/* line 47, ../../_sass/post.scss */
+.post-cover .filter {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 250px;
+  background-color: #303030;
+  opacity: 0.7;
+}
+/* line 56, ../../_sass/post.scss */
+.post-cover .post-title-wrapper {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 80%;
+  text-align: center;
+  color: #fff;
+  transform: translate(-50%, -50%);
+  z-index: 99;
+}
+/* line 66, ../../_sass/post.scss */
+.post-cover .post-title-wrapper a {
+  color: #fff;
+  font-weight: 300;
+}
+
+/* line 73, ../../_sass/post.scss */
+#post-content {
+  padding: 40px 80px;
+  font-weight: 300;
+  line-height: 30px;
+  background-color: #fff;
+  border: 1px solid #f0f0f0;
+}
+/* line 80, ../../_sass/post.scss */
+#post-content *:first-child {
+  margin: 0;
+}
+/* line 83, ../../_sass/post.scss */
+#post-content p {
+  margin: 20px 0 0;
+}
+/* line 86, ../../_sass/post.scss */
+#post-content .highlighter-rouge {
+  margin: 10px 0;
+}
+
+/* line 91, ../../_sass/post.scss */
+#post-prev, #post-next {
+  position: relative;
+  height: 150px;
+}
+/* line 95, ../../_sass/post.scss */
+#post-prev .filter, #post-next .filter {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 150px;
+  background-color: #303030;
+  opacity: 0.7;
+}
+/* line 104, ../../_sass/post.scss */
+#post-prev .link-title-wrapper, #post-next .link-title-wrapper {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  color: #fff;
+  transform: translate(-50%, -50%);
+  z-index: 99;
+}
+/* line 113, ../../_sass/post.scss */
+#post-prev .link-title-wrapper p, #post-next .link-title-wrapper p {
+  font-weight: 300;
+}
+/* line 117, ../../_sass/post.scss */
+#post-prev .link-title-wrapper h3 a, #post-next .link-title-wrapper h3 a {
+  color: #fff;
+}

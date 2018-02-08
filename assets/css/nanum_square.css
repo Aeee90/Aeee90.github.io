@@ -1,0 +1,17 @@
+@font-face {
+    font-family: 'NanumSquareRegular';
+    font-style: normal;
+    font-weight: 400;
+    src: local('NanumSquare Regular'), local('NanumSquareOTF Regular'),
+    url(NanumSquareBold.ttf) format('truetype'),
+    url(NanumSquareOTFBold.otf) format('opentype');
+}
+
+@font-face {
+    font-family: 'NanumSquareBold';
+    font-style: normal;
+    font-weight: 700;
+    src: local('NanumSquare Bold'), local('NanumSquareOTF Bold'),
+    url(NanumSquareRegular.ttf) format('truetype'),
+    url(NanumSquareOTFRegular.otf) format('opentype');
+}

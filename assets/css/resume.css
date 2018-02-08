@@ -1,0 +1,303 @@
+/**************************************************
+	@font-face
+**************************************************/
+@charset "utf-8";
+
+/* fonts */
+@import url('https://fonts.googleapis.com/css?family=Lato|Montserrat:300,400|Libre+Barcode+39+Extended+Text');
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+
+/**************************************************
+	Reset CSS
+**************************************************/
+html,body{width:100%;height:100%;margin:0;padding:0; font-family: 'NanumGothic';}
+body{margin:0;padding:0;font:17px/1.4 'Montserrat', 'Malgun Gothic', arial, '돋움', 'dotum', arial, sans-serif, helvetica;color:#8b8b8b;letter-spacing:-0.5px;background-color:#fff;}
+dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,pre,form,fieldset,input,textarea,p,blockquote,tbody,tfoot,thead,th,td{margin:0;padding:0;vertical-align:middle;}
+h1,h2,h3,h4,h5{font-weight:normal;font-weight:bold;}
+body,div,ul,ol,li,h1,h2,h3,h4,h5,form,fieldset,p,button,input,select,a,em,textarea,input,strong{margin:0;padding:0;}
+input,textarea,select,button,th,td{font:14px 'Montserrat', 'Malgun Gothic','돋움', 'dotum', arial, sans-serif, helvetica;color:#8b8b8b;vertical-align:middle;}
+table{width:100%;border-collapse:collapse;border-spacing:0;table-layout:fixed;}
+th, td{box-sizing:border-box;}
+ol,ul,li{list-style:none;}
+caption{position:relative;}
+img{vertical-align:middle;}
+img,fieldset{border:0 none;}
+label,button,input[type="file"]{cursor:pointer;}
+em,address{font-style:normal;}
+a{color:#202020;text-decoration:none;background-color:transparent;}
+a:focus{outline:1px dotted #aaa;}
+/* a:link,a:visited, a:active{} */
+/*a:hover,a:active,a:focus{text-decoration:none;}*/
+button{overflow:visible;margin:0;padding:0;border:0;background:none;white-space:nowrap;cursor:pointer;}
+button::-moz-focus-inner{padding:0;border:0;}
+legend, .hidden, .hidden{width:0;height:0;padding:0;margin:0;visibility:hidden;font-size:0;}
+input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {-webkit-appearance: none;margin: 0;}
+input[type=radio]{vertical-align:top;}
+textarea{resize:none;}
+hr{display:none;}
+
+/* HTML5 */
+header, footer, nav, section, article, aside, figure, figcaption, hgroup {display:block;}
+
+/**************************************************
+	COMMON CSS
+**************************************************/
+
+/* header */
+header{
+    position: relative;
+    width: 100%;
+    height: 250px;
+    background-color: #d0d0d0;
+    text-align: center
+}
+header .name_wrapper, header .title_wrapper{
+    position: absolute;
+    width: 100%
+}
+header .name_wrapper{
+    top: 85px
+}
+header .title_wrapper{
+    top: 68px
+}
+header .name{
+    color: #303030;
+    border: 1.6px solid #303030;
+    font-size: 3em;
+    padding: 10px 20px;
+    font-weight: 300;
+    cursor: pointer
+}
+header .title{
+    color: #303030;
+    background-color: #d0d0d0;
+    padding: 0 10px;
+    font-weight: 300
+}
+
+/* content */
+.content{
+    position: relative;
+    display: inline-block;
+    margin: 60px 0
+}
+.content .left, .content .right{
+    padding: 0 40px
+}
+.content .left{
+    float: left;
+}
+.content .right{
+    float: right;
+}
+.content .headline{
+    margin: 0 0 20px
+}
+.content h3,
+.content h4,
+.content b{
+    color: #303030
+}
+.content .description{
+    font-family: 'Lato'
+}
+.content hr:not(.w600){
+    display: block;
+    border: 1px solid #d0d0d0;
+    margin: 40px 0
+}
+/* left */
+.content .left{
+    width: calc(35% - 80px)
+}
+
+.content .left .contact ul li{
+    display: inline-block;
+    width: 100%;
+    margin: 10px 0
+}
+.content .left .contact ul li .icon,
+.content .left .contact ul li div{
+    float: left
+}
+.content .left .contact ul li .icon{
+    margin: 0 30px 0 0;
+    width: 50px
+}
+.content .left .contact ul li .label h3{
+    font-size: 1.4em
+}
+.content .left .contact ul li .label span{
+    font-size: 1.2em
+}
+
+/* right */
+.content .right{
+    width: calc(65% - 3px - 80px);
+    border-left: 3px solid #8b8b8b
+}
+
+.content .right .experience ul li{
+    display: inline-block;
+    margin: 10px 0;
+    width: 100%
+}
+.content .right .experience ul li .duration,
+.content .right .experience ul li .exp_content{
+    float: left
+}
+
+.content .right .experience ul li .duration{
+    margin: 0 30px 0 0;
+    width: 160px
+}
+.content .right .experience ul li .exp_content{
+    width: calc(100% - 190px)
+}
+.content .right .experience ul li .exp_content h4{
+    margin: 0 0;
+}
+
+.content .right .experienc ul li .exp_content .exp_link{
+    margin: 0 0 0px 0;
+}
+
+.content .right .skills_education{
+    display: block
+}
+.content .right .skills_education .skills, .content .right .skills_education .education{
+    width: calc(35% - 20px)
+}
+
+.content .right .skills_education .skills{
+    display: inline-block;
+    vertical-align: top;
+}
+.content .right .skills_education .skills h5{
+    margin: 10px 0
+}
+.content .right .skills_education .skills .skill_item{
+    display: inline-block;
+    width: 35%;
+    white-space: nowrap;
+    margin-left: -4px
+}
+.content .right .skills_education .skills .skill_item h4{
+    float: left;
+    width: 90px
+}
+.content .right .skills_education .skills .skill_item .bar_wrapper{
+    float: left;
+    width: calc(100% - 90px);
+    height: 20px;
+    background-color: #d0d0d0
+}
+.content .right .skills_education .skills .skill_item .bar_wrapper .bar{
+    float: left;
+    height: 20px;
+    background-color: #303030
+}
+
+ .content .right .skills_education .education{
+    display: inline-block;
+    vertical-align: top;
+ }
+ .content .right .skills_education .education .item{
+     margin: 0 0 20px
+ }
+ .content .right .skills_education .education .item p{
+     margin: 10px 0 0
+ }
+
+ /**************************************************
+	THEME CSS
+**************************************************/
+
+body.dark header{
+    background-color: #303030
+}
+body.dark header .name{
+    color: #b19974;
+    border: 1.6px solid #fff
+}
+body.dark header .title{
+    color: #fff;
+    background-color: #303030
+}
+
+body.dark .content .headline{
+    color: #b19974
+}
+
+[data-experience] [data-title]{
+    color: #8b734e
+}
+
+body.dark .content .right .skills_education .skills .skill_item .bar_wrapper{
+    background-color: #303030
+}
+body.dark .content .right .skills_education .skills .skill_item .bar_wrapper .bar{
+    background-color: #b19974
+}
+
+@media (max-width: 1000px) {
+
+/* header */
+header{
+    height: 150px
+}
+header .name_wrapper{
+    top: 40px
+}
+header .title_wrapper{
+    top: 85px
+}
+header .name{
+    font-size: 2em;
+    font-weight: 400;
+    border: none
+}
+header .title{
+    font-size: 0.8em;
+    background-color: transparent;
+    font-weight: 300
+}
+
+/* content */
+.content{
+    margin: 20px 0
+}
+.content .left, .content .right{
+    float: none;
+    padding: 0 20px;
+    width: calc(100% - 40px)
+}
+.content .left .contact ul li{
+    width: 49%;
+}
+
+.content .right{
+    border-left: none
+}
+.content hr.w600{
+    display: block;
+    border: 1px solid #d0d0d0;
+    margin: 40px 0
+}
+.content .headline{
+    font-size: 1.2em
+}
+.content .description{
+    font-size: 0.8em
+}
+
+}
+
+@media (max-width: 600px) {
+
+.content .left .contact ul li{
+    width: 100%;
+}
+
+}

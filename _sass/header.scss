@@ -1,0 +1,36 @@
+$maxWidth: 900px;
+$mainColor: rgba(14, 93, 198, 0.9);
+
+header{
+    width: 100%;
+    background-color: #fff
+}
+header .container{
+    margin: auto;
+    max-width: $maxWidth;
+    height: 58px;
+    line-height: 58px;
+}
+#logo, .nav{
+    display: inline-block;
+    height: 58px;
+}
+#logo{
+    font-family: 'Libre Barcode 39 Extended Text';
+    font-size: 30pt;
+    color: $mainColor;
+}
+ul.nav{
+    float: right;
+    font-family: 'Lato';
+    li{
+        float: left;
+        margin: 0 10px;
+    }
+    li.active{
+        border-bottom: 2px solid $mainColor;
+    }
+}
+.toggle-btn{
+    display: none;
+}

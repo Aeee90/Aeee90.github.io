@@ -1,0 +1,47 @@
+/* line 4, ../../_sass/resume_nav.scss */
+nav {
+  padding: 0 0 2px 0;
+  width: 100%;
+  background-color: #fff;
+}
+
+/* line 9, ../../_sass/resume_nav.scss */
+nav .container {
+  margin: auto;
+  max-width: 900px;
+  height: 58px;
+  line-height: 58px;
+}
+
+/* line 15, ../../_sass/resume_nav.scss */
+#logo, .nav {
+  display: inline-block;
+  height: 58px;
+}
+
+/* line 19, ../../_sass/resume_nav.scss */
+#logo {
+  font-family: 'Libre Barcode 39 Extended Text';
+  font-size: 30pt;
+  color: rgba(14, 93, 198, 0.9);
+}
+
+/* line 24, ../../_sass/resume_nav.scss */
+ul.nav {
+  float: right;
+  font-family: 'Lato';
+}
+/* line 27, ../../_sass/resume_nav.scss */
+ul.nav li {
+  float: left;
+  margin: 0 10px;
+}
+/* line 31, ../../_sass/resume_nav.scss */
+ul.nav li.active {
+  border-bottom: 2px solid rgba(14, 93, 198, 0.9);
+}
+
+/* line 35, ../../_sass/resume_nav.scss */
+.toggle-btn {
+  display: none;
+}
