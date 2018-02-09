@@ -3,10 +3,10 @@ layout: list
 ---
 
 <div id="category">
-    <h2>{{ site.data.samplelist.docs_list_title }}</h2>
+    <h2>{{ site.data.category.docs_list_title }}</h2>
     <div class="content_section">
-        {% for item in site.data.samplelist.docs %}
-            <div class="cs_item">{{ item.title }}</div>
+        {% for item in site.data.category.docs %}
+            <span class="cs_item">{{ item.title }}</span>
         {% endfor %}
     </div>
 </div>

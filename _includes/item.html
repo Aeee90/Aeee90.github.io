@@ -1,6 +1,6 @@
 <li class="post-item post" category={{post.categories}}>
     <a href="{{ post.url }}">
-        <h4 class="post-category">{{ post.categories.first }}</h4>
+        <h4 class="post-category">#{{ post.categories.first }}</h4>
         <p class="post-date">{{ post.date | date: '%Y-%m-%d %H:%M' }}</p>
         <h2 class="post-title">{{ post.title }}</h2>
         <p class="post-content">{{ post.excerpt | strip_html | truncatewords: 100 }}</p>
