@@ -8,8 +8,6 @@ tags: ECMAScript6+ javacript EulerProject
 image: /assets/images/euler.jpg
 ---
 
-**초보 개발자의 일기장**
-
 ![Alt text](/assets/images/euler/48.PNG)
 
 # Solution
