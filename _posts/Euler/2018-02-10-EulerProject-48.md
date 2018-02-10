@@ -9,7 +9,8 @@ image: /assets/images/euler.jpg
 ---
 
 **초보 개발자의 일기장**
-![Alt text](/assets/images/euler/48.jpg)
+
+![Alt text](/assets/images/euler/48.PNG)
 
 # Solution
 1^1 + 2^2 + 3^3 + ... + n^n 을 값을 구할 수 있는 function을 먼저 구하자.
