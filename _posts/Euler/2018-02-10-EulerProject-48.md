@@ -59,5 +59,6 @@ const solution = (n, boundary = 10**10)=>{
 }
 ```
 
+출처: [Project Euler-48](http://euler.synap.co.kr/prob_detail.php?id=48)
 
   
