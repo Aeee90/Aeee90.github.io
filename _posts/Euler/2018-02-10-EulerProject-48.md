@@ -8,7 +8,7 @@ tags: ECMAScript6+ javacript EulerProject
 image: /assets/images/euler.jpg
 ---
 
-![Alt text](/assets/images/euler/48.PNG)
+![Problem](/assets/images/euler/48.PNG)
 
 # Solution
 1^1 + 2^2 + 3^3 + ... + n^n 을 값을 구할 수 있는 function을 먼저 구하자.

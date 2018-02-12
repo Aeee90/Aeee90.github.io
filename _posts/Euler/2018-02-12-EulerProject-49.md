@@ -8,7 +8,7 @@ tags: ECMAScript6+ javacript EulerProject
 image: /assets/images/euler.jpg
 ---
 
-![Alt text](/assets/images/euler/49.PNG)
+![Problem](/assets/images/euler/49.PNG)
 
 일단 소수를 구해보자.
 ```javascript

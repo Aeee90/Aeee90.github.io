@@ -335,3 +335,7 @@ body {
   cursor: pointer;
 }
 
+img[alt=Problem]{
+  width: 100%;
+}
+
