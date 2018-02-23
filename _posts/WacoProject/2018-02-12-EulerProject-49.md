@@ -31,7 +31,7 @@ image: /assets/images/Wine.jpg
 ## 사용 언어 및 기술
  1. Javascript: ES6+로 배우면서 많이 부족하지만, 다른 언어보다 재밌다. 솔직히 컴파일러가 해주는게 많아서 편하다.
  2. Java: 처음으로 시작한 언어인데, 버리기 아까워서 해야겠다. 욕심일지 모르겠지만 말이다.
- 3. Spring: API 서버를 Spring으로 만들 것이다. 
+ 3. Spring or Express: API 서버를 Spring or Express로 만들 것이다.(무엇을 할 지 모르겠다.)
  4. Node, Webpack, Vue, Babel, Sass: 참 공부할 것도 많다. 미래의 FullStack을 위해서.. 
 
 
