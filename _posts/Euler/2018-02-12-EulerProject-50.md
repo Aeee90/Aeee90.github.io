@@ -1,9 +1,13 @@
 ---
-
-layout: post title: "Euler Project No.50" author: Aeee date: 2018-02-28 14:44:49 +0900 categories: Euler tags: ECMAScript6+ javacript EulerProject
+layout: post 
+title: "Euler Project No.50" 
+author: Aeee 
+date: 2018-02-28 14:44:49 +0900 
+categories: Euler 
+tags: ECMAScript6+ javacript EulerProject
 
 image: /assets/images/euler.jpg
--------------------------------
+---
 
 ![Problem](/assets/images/euler/50.PNG)
 
