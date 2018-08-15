@@ -5,7 +5,7 @@ author: Aeee
 date:   2018-08-15 14:39:49 +0900
 categories: Privacy
 tags: MT DanYang Plan
-image: /assets/plan/img.jpg
+image: /assets/images/plan/img.jpg
 ---
 
 # 들어가기 전
