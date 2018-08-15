@@ -54,8 +54,8 @@ image: /assets/images/plan/img.jpg
 - 연립동, 휴양관: 빌라형 펜션이라 생각하자.
 최대인원 10명이니 6인방 두 개이며, 숲속의 집은 6인방이 없으므로 연립동과 휴양관으로 계산한다. 아래의 요금표를 보자.
 
-![Problem](/assets/images/plan/house1.PNG)
-![Problem](/assets/images/plan/house2.PNG)
+![Problem](/assets/images/plan/house1.png)
+![Problem](/assets/images/plan/house2.png)
 
 성수기 주말이며 
     연립동은 104,000 * 2 / 10 = 20,800
