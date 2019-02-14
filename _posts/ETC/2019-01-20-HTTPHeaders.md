@@ -5,7 +5,7 @@ author: Aeee
 date:   2018-09-01 14:39:49 +0900
 categories: Http
 tags: HTTP Header API
-image: /assets/images/plan/http.gif
+image: /assets/images/http.gif
 ---
 
 # HTTP Headers

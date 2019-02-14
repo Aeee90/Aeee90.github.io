@@ -6,7 +6,7 @@ date: 2019-02-14 16:31:00 +0900
 categories: ReactiveX
 tags: ReactiveX Observer Iterator Kotlin Java
 
-image: /assets/images/reactiveX.jpg
+image: /assets/images/reactiveX.png
 ---
 
 # ReactiveX 란?
