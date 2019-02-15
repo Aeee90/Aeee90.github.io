@@ -153,6 +153,16 @@ PublishSubject, ConnectableObservable, ObservableCreate 등을 제공한다.
 Subject는 Observable Class를 상속받아 구현되고, Subject 들이 부모를 참조하여 꼬리를 물고 
 있다. Observer는 Observer Interface를 통해 구현되며, Disposable Interface를 구체화한
 객체가 참조한다. 그리고 Subject에서 Disposable Interface 구체화한 class를 배열로 관리하며
-배열을 통해 데이터를 각 Observer에게  push하게 된다.
+배열을 통해 데이터를 각 Observer에게 push하게 된다.
+
+이러한 구조는 각 Async한 로직을 한 Subject로 취급하여, 연속적인 Subject를 제공한다. 그리고
+상위의 Subject들이 해소되어야만 하위의 Subject에게 Data를 Push한다. 비지니스 로직을 메소드 체인
+형태로 표현하기 때문에 가시성의 이점을 얻을 수 있다.
+
+## 마무리
+다양한 Subject들이 제공되며 기능이 엄청 많다. 그리고 성능은 어떻게 유지시키는지, 비동기 로직에 대해서
+어떻게 처리하는 지도 의문이다. 그리고 Subjejct와 Observer사이의 생산과 소비 속도에 차에 의한
+해결법 등이 많은 것 같다. 아직 ReactiveX의 숙력도가 낫지만, 추후에 성능, 사용방법 등에 대한 다른
+관점에서도 파헤쳐 볼 것이다. 
 
 
