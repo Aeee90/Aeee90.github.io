@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  "서버 구성"
+title:  "서버 구성 for Personal Project"
 author: Aeee
-date:   2018-08-15 14:39:49 +0900
-categories: Privacy
-tags: MT DanYang Plan
+date:   2019-02-21 14:39:49 +0900
+categories: Personal Project
+tags: Member Server Structure
 image: /assets/images/diary.jpeg
 ---
 
