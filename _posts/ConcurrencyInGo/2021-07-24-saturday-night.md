@@ -96,11 +96,24 @@ done := make(chan interface{})
 
 Achievend 5 cycles of work before signalled to stop.
 
-위와 같은 메세지가 출력되며, Go에서는 때로는 멈춰야 하는지르 ㄹ점검하는 루프를 가지고 있다. 
+위와 같은 메세지가 출력되며, Go에서는 때로는 멈춰야 하는지를 점검하는 루프를 가지고 있다. 
  
-# Garbage Collection
+# Garbage Collector
+
+## Garbage Collector
+- Garbage Collector 줄여서 GC라고 부릅니다. 메모리 관리 방법 중 하나로, 프로그램이 동적으로 할당했던 
+메모리에서 더 이상 사용하지 않게 된 메모리를 찾아서 재사용 가능하도록 회수하는 기능이다.
+- 성능을 어느정도 포기하고, 메모리 관리를 더 쉽게 할 수 있도록 하기 위해 사용한다.
 
 
+## 삼색 표시 후 쓸어 담기 알고리즘
+Go 언어의 GC는 삼색 표시 후 쓸어 담기 알고리즘 Tricolor mark and sweep algorithm 을 사용합니다. 먼저 삼색 집합에 대해서 알아봐야 합니다.
+
+- 흰색 집합 (White set): 프로그램에서 더 이상 접근할 수 없어서 GC 대상이 되는 객체
+- 검은색 집합 (Black set): 프로그램이 사용하고 있고, 흰색 집합의 객체에 대한 참조가 없는 객체. 흰색 집합의 객체가 검은색 집합의 객체의 참조를 가져도 문제가 되지 않음
+- 회색 집합 (Grey set): 프로그램이 사용하고 있고, 흰색 집합의 객체를 가리킬 수도 있어서 검사를 진행해야하는 객체
+
+(출처: [gump.log](https://velog.io/@kineo2k/Go-%EC%96%B8%EC%96%B4%EC%9D%98-GC)) 
  
 
   
